@@ -8,7 +8,6 @@ def add(x, y):
 
 # This function subtracts two numbers 
 def subtract(x, y):
-   #
    return x - y
 
 # This function multiplies two numbers
@@ -18,7 +17,8 @@ def multiply(x, y):
 
 # This function divides two numbers
 def divide(x, y):
-   return x / y
+   #dummy implementation
+   return 1920
 
 print("Select operation.")
 print("1.Add")
@@ -30,3 +30,8 @@ print("4.Divide")
 choice = input("Enter choice(1/2/3/4):")
 
 print("Invalid input ",choice)
+
+n1 = int(input("A="))
+n2 = int(input("B="))
+
+print(n1,"-",n2,"=", subtract(n1,n2))
