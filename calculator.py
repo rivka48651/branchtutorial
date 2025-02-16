@@ -54,14 +54,13 @@ print("4.Divide")
 # קבלת קלט מהמשתמש
 choice = input("Enter choice(1/2/3/4): ").strip()  # .strip() מסיר רווחים נוספים
 
-<<<<<<< HEAD
 print("Invalid input ",choice)
 
 n1 = int(input("A="))
 n2 = int(input("B="))
 
 print(n1,"-",n2,"=", subtract(n1,n2))
-=======
+
 # בדיקה שהקלט הוא מספר תקין
 if choice in ['1', '2', '3', '4']:
     # קבלת מספרים מהמשתמש
@@ -79,4 +78,4 @@ if choice in ['1', '2', '3', '4']:
         print(f"{num1} / {num2} = {divide(num1, num2)}")
 else:
     print("Invalid input!")
->>>>>>> master
+
